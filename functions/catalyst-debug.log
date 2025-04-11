@@ -1,0 +1,422 @@
+[debug] [2025-04-11T05:02:31.817Z] : 
+[debug] [2025-04-11T05:02:31.820Z] : ----------------------------------------------------------------------
+[debug] [2025-04-11T05:02:31.820Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-04-11T05:02:31.821Z] : CLI Version:  1.17.6
+[debug] [2025-04-11T05:02:31.821Z] : Platform:     win32
+[debug] [2025-04-11T05:02:31.822Z] : Node Version: v22.12.0
+[debug] [2025-04-11T05:02:31.822Z] : Time:         Fri Apr 11 2025 10:32:31 GMT+0530 (India Standard Time)
+[debug] [2025-04-11T05:02:31.822Z] : ----------------------------------------------------------------------
+[debug] [2025-04-11T05:02:31.822Z] : 
+[debug] [2025-04-11T05:02:33.298Z] : > authorizing via signed-in user option
+[debug] [2025-04-11T05:02:33.298Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.authentication.CREATE"]
+[debug] [2025-04-11T05:02:33.317Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/28845000000022001 
+
+[debug] [2025-04-11T05:02:34.460Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 11 Apr 2025 05:02:34 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=c3d5ec374d3dc932973a3d50f55d8d00; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=d84a798e-7dcf-46f4-8c5f-4ad85c105d9f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d84a798e-7dcf-46f4-8c5f-4ad85c105d9f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-04-11T05:02:34.467Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/28845000000022001/environment 
+
+[debug] [2025-04-11T05:02:34.788Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 11 Apr 2025 05:02:35 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=b14009a6059feb83ee8aa1c715a015c5; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=c8c0306c-b9a8-46dc-bd25-69539147cde1;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=c8c0306c-b9a8-46dc-bd25-69539147cde1;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-04-11T05:02:35.161Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/28845000000022001/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2025-04-11T05:02:35.494Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 11 Apr 2025 05:02:35 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_46512fd555=4ead9897700827f973c0f7dbded7f673; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=06999079-4352-42ee-9e3f-da45256fcff5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=06999079-4352-42ee-9e3f-da45256fcff5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-04-11T05:02:35.503Z] : unknown eol undefined hence skipping check
+[info] [2025-04-11T05:02:38.112Z] : 
+[info] [2025-04-11T05:02:38.112Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2025-04-11T05:02:38.113Z] : i assignment_function: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:02:38.114Z] : 
+[info] [2025-04-11T05:04:12.933Z] : 
+change of controller\leadController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:04:16.005Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:04:16.007Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:04:42.439Z] : 
+change of controller\leadController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:04:46.508Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:04:46.508Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:04:52.794Z] : 
+change of controller\leadController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:04:57.534Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:04:57.553Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:04:58.553Z] : 
+change of controller\leadController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:05:02.510Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:05:02.512Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:05:36.956Z] : 
+change of controller\leadController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:05:41.845Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:05:41.878Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:16:54.899Z] : 
+change of controller\leadController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:16:58.558Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:16:58.558Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:21:55.759Z] : 
+change of controller\leadController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:21:59.666Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:21:59.666Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:22:51.953Z] : 
+change of controller\leadController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:22:56.516Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:22:56.517Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:25:36.561Z] : 
+change of router\leadRouter.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:25:40.012Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:25:40.014Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:26:10.870Z] : 
+change of controller\leadController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:26:14.675Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:26:14.676Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:27:23.170Z] : 
+add of sql\leadQuery.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:27:28.664Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:27:28.664Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:28:18.829Z] : 
+change of sql\leadQuery.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:28:22.254Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:28:22.263Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:30:29.067Z] : 
+change of sql\leadQuery.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:30:31.969Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:30:31.987Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:31:36.031Z] : 
+change of controller\leadController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:31:38.665Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:31:38.666Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:33:38.849Z] : 
+change of sql\leadQuery.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:33:42.643Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:33:42.644Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:34:07.477Z] : 
+change of router\leadRouter.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:34:10.725Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:34:10.728Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:35:13.394Z] : 
+change of sql\leadQuery.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:35:17.553Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:35:17.554Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:36:04.948Z] : 
+change of controller\leadController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:36:08.408Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:36:08.414Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:37:48.319Z] : 
+change of controller\leadController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:37:51.177Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:37:51.178Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:39:43.257Z] : 
+change of sql\leadQuery.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:39:47.292Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:39:47.292Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:41:04.681Z] : 
+change of sql\leadQuery.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:41:07.787Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:41:07.787Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:41:30.271Z] : 
+change of controller\leadController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:41:33.885Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:41:33.886Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:46:29.995Z] : 
+change of router\leadRouter.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:46:33.197Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:46:33.198Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[debug] [2025-04-11T05:46:59.211Z] : > refreshing access token <
+[debug] [2025-04-11T05:46:59.213Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-04-11T05:47:00.249Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 11 Apr 2025 05:47:00 GMT","content-type":"application/json;charset=UTF-8","content-length":"1980","connection":"keep-alive","set-cookie":["zalb_b266a5bf57=a7f15cb1555106de5ac96d088b72e7c8; Path=/; Secure; HttpOnly","iamcsr=83e27ac8-917c-4183-bc5e-fa188fb8072e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=83e27ac8-917c-4183-bc5e-fa188fb8072e;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-04-11T05:49:04.830Z] : 
+change of router\leadRouter.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:49:08.894Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:49:08.900Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:50:49.213Z] : 
+change of router\leadRouter.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:50:52.185Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:50:52.187Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:55:49.912Z] : 
+change of controller\leadController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:55:52.724Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:55:52.725Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:56:28.207Z] : 
+change of controller\leadController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:56:32.118Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:56:32.119Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T05:59:20.630Z] : 
+change of router\leadRouter.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T05:59:23.991Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T05:59:23.992Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:00:26.264Z] : 
+change of controller\leadController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:00:28.712Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:00:28.713Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:02:37.812Z] : 
+change of controller\userController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:02:40.354Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:02:40.356Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:06:21.562Z] : 
+change of controller\leadController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:06:26.440Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:06:26.441Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:07:10.535Z] : 
+change of controller\leadController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:07:13.471Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:07:13.472Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:10:00.664Z] : 
+add of controller\dealController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:10:04.932Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:10:04.949Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:10:25.611Z] : 
+add of sql\dealQuery.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:10:29.298Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:10:29.300Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:14:01.460Z] : 
+change of router\dealRouter.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:14:05.046Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:14:05.049Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:20:20.159Z] : 
+change of controller\dealController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:20:24.494Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:20:24.495Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:20:35.561Z] : 
+change of controller\dealController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:20:40.231Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:20:40.244Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:21:55.145Z] : 
+change of controller\dealController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:21:58.422Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:21:58.423Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:26:01.716Z] : 
+change of router\dealRouter.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:26:04.597Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:26:04.598Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:29:42.465Z] : 
+change of controller\dealController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:29:46.579Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:29:46.579Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:31:48.195Z] : 
+change of controller\dealController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:31:51.973Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:31:51.974Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:38:44.864Z] : 
+add of router\fileUpload.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:38:49.071Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:38:49.075Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:41:03.349Z] : 
+addDir of controller\csvModule in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:41:08.489Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:41:08.493Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:41:09.501Z] : 
+change of router\fileUpload.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:41:13.693Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:41:13.699Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:41:20.885Z] : 
+unlink of controller\csvModule\models\advisorCredentialModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:41:26.155Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:41:26.156Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:41:31.957Z] : 
+unlink of controller\csvModule\models\offeringModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:41:37.311Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:41:37.312Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:41:40.979Z] : 
+change of controller\csvModule\models\clientModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:41:46.783Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:41:46.784Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:41:47.793Z] : 
+unlink of controller\csvModule\models\clientModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:41:54.061Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:41:54.065Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:41:55.069Z] : 
+unlink of controller\csvModule\models\insurencePartnerModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:42:05.198Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:42:05.199Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:42:06.213Z] : 
+unlink of controller\csvModule\models\index.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:42:16.604Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:42:16.605Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:42:17.614Z] : 
+unlink of controller\csvModule\models\vendorsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:42:28.359Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:42:28.359Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:42:29.362Z] : 
+unlink of controller\csvModule\models\locationsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:42:34.895Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:42:34.895Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:43:12.976Z] : 
+change of controller\csvModule\models\dealsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:43:17.437Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:43:17.445Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:43:39.672Z] : 
+change of controller\csvModule\csvImportController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:43:45.260Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:43:45.261Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:46:47.016Z] : 
+change of controller\csvModule\csvImportController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:46:50.699Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:46:50.700Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:47:54.604Z] : 
+change of controller\csvModule\csvImportController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:47:57.846Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:47:57.847Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:52:19.597Z] : 
+change of controller\csvModule\csvImportController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:52:25.873Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:52:25.873Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:53:02.078Z] : 
+change of controller\csvModule\csvImportController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:53:04.703Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:53:04.704Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:57:36.236Z] : 
+add of controller\csvModule\models\usersModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:57:40.753Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:57:40.755Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T06:58:10.707Z] : 
+add of controller\csvModule\models\leadsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T06:58:15.369Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T06:58:15.379Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:00:12.026Z] : 
+add of controller\csvModule\models\clientsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:00:16.893Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:00:16.894Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:00:38.071Z] : 
+add of controller\csvModule\models\companiesModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:00:43.009Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:00:43.024Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:02:29.660Z] : 
+change of controller\csvModule\models\usersModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:02:33.296Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:02:33.297Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:04:41.657Z] : 
+change of controller\csvModule\models\leadsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:04:44.278Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:04:44.283Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:04:48.908Z] : 
+change of controller\csvModule\csvImportController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:04:53.338Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:04:53.339Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:05:09.057Z] : 
+change of controller\csvModule\models\dealsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:05:13.084Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:05:13.087Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:05:27.122Z] : 
+change of controller\csvModule\models\dealsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:05:31.739Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:05:31.740Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:05:40.248Z] : 
+change of controller\csvModule\models\dealsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:05:44.043Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:05:44.044Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:06:12.608Z] : 
+change of controller\csvModule\models\dealsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:06:18.809Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:06:18.810Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:06:50.140Z] : 
+change of controller\csvModule\models\leadsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:06:54.683Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:06:54.689Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:07:00.380Z] : 
+change of controller\csvModule\models\leadsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:07:07.198Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:07:07.199Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:07:10.061Z] : 
+change of controller\csvModule\models\leadsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:07:15.827Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:07:15.828Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:07:25.797Z] : 
+change of controller\csvModule\models\leadsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:07:33.153Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:07:33.154Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:07:39.752Z] : 
+change of controller\csvModule\models\clientsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:07:45.212Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:07:45.237Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:07:49.611Z] : 
+change of controller\csvModule\models\clientsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:07:55.258Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:07:55.295Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:07:57.074Z] : 
+change of controller\csvModule\models\clientsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:08:03.312Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:08:03.312Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:08:13.408Z] : 
+change of controller\csvModule\models\clientsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:08:19.845Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:08:19.846Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:08:38.746Z] : 
+change of controller\csvModule\models\clientsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:08:42.513Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:08:42.514Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:09:35.969Z] : 
+change of controller\csvModule\models\dealsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:09:40.709Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:09:40.711Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:10:11.217Z] : 
+change of controller\csvModule\models\leadsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:10:16.938Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:10:16.939Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:10:20.231Z] : 
+change of controller\csvModule\models\leadsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:10:23.781Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:10:23.782Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:10:30.850Z] : 
+change of controller\csvModule\models\leadsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:10:36.462Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:10:36.463Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:10:46.114Z] : 
+change of controller\csvModule\models\leadsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:10:51.664Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:10:51.664Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:10:52.674Z] : 
+change of controller\csvModule\models\leadsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:10:57.076Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:10:57.077Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:12:49.752Z] : 
+change of index.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:12:54.638Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:12:54.640Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:14:32.781Z] : 
+addDir of Utils in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:14:36.188Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:14:36.190Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:14:38.436Z] : 
+add of Utils\fileTypes.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:14:44.453Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:14:44.470Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:15:51.530Z] : 
+change of router\fileUpload.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:15:55.924Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:15:55.933Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[debug] [2025-04-11T07:16:20.524Z] : > refreshing access token <
+[debug] [2025-04-11T07:16:20.531Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-04-11T07:16:21.530Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 11 Apr 2025 07:16:21 GMT","content-type":"application/json;charset=UTF-8","content-length":"1980","connection":"keep-alive","set-cookie":["zalb_b266a5bf57=a711b6da0e6cbadb5e254290f114a026; Path=/; Secure; HttpOnly","iamcsr=099538a1-ed1f-4a2b-91e1-4a7654e1c12b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=099538a1-ed1f-4a2b-91e1-4a7654e1c12b;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-04-11T07:16:55.725Z] : 
+change of package.json in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:17:04.253Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:17:04.253Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:17:17.289Z] : 
+change of package.json in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:17:24.014Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:17:24.017Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:20:08.557Z] : 
+change of router\fileUpload.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:20:13.664Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:20:13.664Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:35:04.717Z] : 
+change of controller\csvModule\csvImportController.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:35:10.582Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:35:10.584Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:35:11.586Z] : 
+unlink of controller\csvModule\models\clientsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T07:35:21.548Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T07:35:21.550Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
+[info] [2025-04-11T07:35:22.870Z] : 
+unlink of controller\csvModule\models\leadsModel.js in assignment_function detected. Preparing your function, please wait...
+[info] [2025-04-11T08:32:50.381Z] : i AdvancedIO[assignment_function]: ready!
+[info] [2025-04-11T08:32:50.426Z] : i AdvancedIO[assignment_function]: http://localhost:3000/server/assignment_function/
