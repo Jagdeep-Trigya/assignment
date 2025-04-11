@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "targets": [
+      "assignment_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client"
+  }
+}
