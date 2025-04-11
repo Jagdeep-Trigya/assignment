@@ -15,11 +15,7 @@ exports.uploadCsv = async (req, res) => {
         }
         console.log("moduleName--->", moduleName);
    
-        const availableModels = moduleName === "users"
-        ?{            
-            users: usersModel.users
-        }        
-        :{};  
+        const availableModels = { users: usersModel.users };
         
         const result = await csvUploadService.processCsvUpload(req, bucketName, fileData, availableModels);
         console.log("reult--->", result);

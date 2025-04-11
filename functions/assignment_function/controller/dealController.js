@@ -108,3 +108,54 @@ exports.deletedeal = async (req, res) => {
         return res.status(500).json({ message: error.message });
     }
 }
+
+exports.convertLeadToDeal = async (req, res) => {
+    const app = catalyst.initialize(req, { scope: "admin" });
+    const data = req.body;
+
+
+    try {
+        const leadId = req.params.id;
+        // console.log("lead id", leadId);
+        if (!leadId) {
+            return res.status(400).json({ success: false, message: "Lead ID is required" });
+        }
+        const getLeadQuery = `SELECT * FROM leads WHERE ROWID = '${leadId}'`;
+        const getLeadResponse = await app.zcql().executeZCQLQuery(getLeadQuery);
+        const payload = getLeadResponse[0].leads;
+        const dealData = {
+            dealName: payload?.leadName??"",
+            email: payload?.email ?? "",
+            phone: payload?.phone ?? "",
+        }
+        const clientData = {
+            clientname: payload?.leadName??"",
+            email: payload?.email ?? "",
+            phone: payload?.phone ?? ""
+        }
+        const companyData = {
+            name: payload?.leadName??"",
+            email: payload?.email ?? "",
+            phone: payload?.phone ?? "",
+
+        }
+
+        const response = await app.datastore().table("deals").insertRow(dealData);
+        console.log("responseee", response);
+        const clientResp = await app.datastore().table("clients").insertRow(clientData);
+        console.log("clientResp", clientResp);
+        const clientId = clientResp?.ROWID ?? null;
+        const companyResp = await app.datastore().table("companies").insertRow({ ...companyData, accountOwner: clientId });
+        console.log("companyResp", companyResp);
+        await app.datastore().table("leads").updateRow({
+            ROWID: leadId,
+            status: "Converted to Deal"
+        });
+
+        return res.status(200).json({ success: true, message: "Deal created successfully!", response, client: clientResp, company: companyResp });
+    }
+    catch (error) {
+        console.error("Error creating deal:", error);
+        return res.status(409).json({ success: false, message: "Failed! Cannot create deal!", error: error.message });
+    }
+}

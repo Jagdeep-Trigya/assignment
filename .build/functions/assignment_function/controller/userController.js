@@ -20,7 +20,6 @@ exports.createUser = async (req, res) => {
         return res.status(400).json({ message: "All fields are required" });
         }
         const userData = { name, email, phone, password };
-
         const newUser = await userTable.insertRow(userData);
         return res.status(201).json({ success : true, message:"User created successfully", user: newUser });
     } catch (error) {

@@ -18,20 +18,17 @@ exports.importCsvFile = async (req, res) => {
         let dataStore = app.datastore().table("dataRequest");
 
 
-        const files = moduleName === "users"?{
+        const files = {
             userData: usersFileId
-        } 
-        : {};
+        };
 
         if (Object.values(files).every(file => !file)) {
             return res.status(400).json({ success: false, message: "No valid file IDs provided" });
         }
 
-        const optionsMap = moduleName === "users" ?{
+        const optionsMap = {
             users: { operation: "insert" }
-        }
-       
-        : {};
+        };
 
         const result = await csvImportService.importCsvdata(app, files, optionsMap, dataStore, ROWID, bucketName);
         console.log("result", result);
